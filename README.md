@@ -26,7 +26,7 @@ Criação e manipulação de um arquivo de log da memória de um computador.
 # project-02
 
 Aplicação que salva favoritos em um banco de dados MongoDB através de uma interface frontend, utilizando um servidor express NodeJS para conexão.
-Para execução correta deste projeto todas as depedências devem ser instaladas.
+Para execução correta deste projeto todas as depedências devem ser instaladas diretamente na pasta /project-02.
 ```bash
   npm i
 ```
