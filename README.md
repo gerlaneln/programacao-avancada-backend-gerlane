@@ -30,3 +30,14 @@ Para execução correta deste projeto todas as depedências devem ser instaladas
 ```bash
   npm i
 ```
+Comandos para execução do frontend, dentro da pasta /project-02:
+```bash
+  npm start
+```
+Comandos para execução da API, dentro da pasta /project-02:
+```bash
+  npm run api
+```
+**Front-end:** HTML, CSS, JavaScript
+
+**Back-end:** Node, Express, Mongoose
