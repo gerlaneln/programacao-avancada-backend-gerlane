@@ -1,4 +1,4 @@
-# programacao-avancada-backend_gerlane
+# programacao-avancada-backend-gerlane
 
 Cógidos produzidos durante a disciplina "Programação Avançada BackEnd", do projeto WebAcademy.
 Parte deste código foi produzido em pair programming com [Wendel Silva](https://github.com/wendellucas93).
