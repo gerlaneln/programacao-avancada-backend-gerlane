@@ -15,7 +15,7 @@ Carrega os dados presentes no banco de dados na abertura da página
 load();
 
 /*
-Função load() faz a conexão com o banco de dados através do fetch, para buscar todas as entidades salvas
+Função load() faz a conexão com a api da aplcação através do fetch, para buscar todas as entidades salvas
 e enviá-las para a função que as mostra como lista no frontend.
 */
 function load() {
@@ -30,11 +30,13 @@ function load() {
 };
 
 /*
-Função showElement() usa os elementos digitados pelo usuário para criar um lista, acrescentando um botão para remoção dos nós desejados.
+Função showElement() usa os elementos digitados pelo usuário para criar um lista, acrescentando um botão para remoção do nó desejado.
 */
 function showElement({ item }) {
     let li = document.createElement('li');
-    li.innerHTML = `<span hidden>${item._id}</span>Nome: <span>${item.nome}</span> - URL: <a href="${item.url}">${item.url}</a> <button class="remove" onclick="removeElement(this)">&#9747;</button>`;
+    li.innerHTML = `<span hidden>${item._id}</span>Nome: <span>${item.nome}</span> - URL: 
+    <a href="${item.url}">${item.url}</a> 
+    <button class="remove" onclick="removeElement(this)">&#9747;</button>`;
     ul.appendChild(li);
 }
 
